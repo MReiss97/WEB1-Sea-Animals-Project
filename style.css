@@ -1,0 +1,177 @@
+body{
+    background-image: url('https://cdn.wallpapersafari.com/3/57/zKrQMR.jpg');
+    background-size:cover;
+}
+.everything{
+    border:inset 2px;
+    border-color:grey;
+    height:200px;
+    width:400px;
+    
+}
+.urchin{
+    border:inset 2px;
+    border-color:grey;
+    
+    text-align:center;
+}
+.stingray{
+    border:inset 2px;
+    border-color:grey;
+    text-align:center;
+    
+}
+
+.seaturtle{
+    border:inset 2px;
+    border-color:grey;
+   
+    text-align:center;
+}
+.bluewhale{
+    border:inset 2px;
+    border-color:grey;
+    
+    text-align:center;
+}
+.octupus{
+    border:inset 2px;
+    border-color:grey;
+    
+    text-align:center;
+}
+.title{
+    text-align:center;
+    text-size:50px;
+    color:white;
+    font-style:bold;
+}
+.tag{
+    text-size:35px;
+    color:blue;
+    text-align:center;
+    border:inset 1px;
+    border-color:grey;
+    
+     
+}
+
+.container {
+  position: center;
+  width: 50%;
+    display:block;
+  margin-right:auto;
+  border:inset;
+  border-color:grey;
+  padding:0px;
+  cursor: pointer;
+  margin:auto;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.a {
+  background: #001224;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: transparent;
+  background: url("https://wweb.dev/resources/creative-hover-effects/wave.svg") repeat-x #fff;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200% 100%;
+  background-position-x: 0;
+  background-position-y: 2em;
+  -webkit-transition: background-position-y 0.6s ease;
+  transition: background-position-y 0.6s ease;
+  -webkit-animation: waveAnimation 4s infinite linear;
+  animation: waveAnimation 4s infinite linear;
+  animation-play-state: running;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+.a:hover {
+  background-position-x: 0;
+  background-position-y: 0;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+@keyframes waveAnimation{
+  from {
+    background-position-x: -50%;
+  }
+  to {
+    background-position-x: 150%;
+  }
+}
